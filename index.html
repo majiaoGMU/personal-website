@@ -25,233 +25,156 @@
 	</div>
 	<!-- navigation bar finished -->
 
-	<div class="jumbotron">
-		<div class="container">
-			<h1>Jiao Ma</h1>
-			<p></p>
-			<p>Graduate Student @GMU, GISer, Cartographer</p>
-		</div>
+	<div class="jumbotron container">
+		<h1>Jiao Ma</h1>
+		<p>GISer, Cartographer</p>
 	</div>
 
-	<div class="wrapper">
-		<div class="content">
-			<div id="aboutme" class="container">
-				<h2>Welcome!</h2><br>
-				<p> I am a master student from George Mason University. My major is Geographic and Cartographic Science. I got my Bachelor degree in Beijing Forestry University.</p>
+	<main>
+		<div id="aboutme" class="container">
+			<h2>Welcome!</h2><br>
+			<p> Hi, there. I am a recent graduated master student from George Mason University. My major is Geographic and Cartographic Science. I got my Bachelor degree in Beijing Forestry University. I am a data visualization enthusiast.</p>
+		</div>
+
+		<!-- about me page finished  -->
+
+		<div id="Project" class="container">
+			<h2>Project</h2>
+			<br/>
+			<div class="thumbnail round projectPanel">
+				<div class="row">
+					<div class="col-md-6">
+						<center><a href="http://jma10.com/Global-Aging-Trend/Aging.html"><img src="images/Global_Aging_Trend.png" style="width:80%" class="round shadow"></a></center>
+					</div>
+					<div class="col-md-6">
+						<div class="row">
+							<div class="col-md-12"><h3 class="pull-left">2015 Global Aging Trend</h3></div>
+						</div>
+						<p> Aging problem is really serious for many developed countries in the world. In this project, I collected the world aging data from the World Bank.
+						</p>
+					</div>
+				</div>
 			</div>
 
-			<!-- about me page finished  -->
-
-			<div id="Project" class="container">
-				<h2>Project</h2>
-				<br/>
-				<div class="thumbnail round projectPanel">
-					<div class="row">
-						<div class="col-md-7">
-							<center><a href="Starbucks-Locator/overview.htm"><img src="images/starbucks-locator.JPG" style="width:100%" class="round shadow"></a></center>
+			<br/>
+			<div class="thumbnail round projectPanel">
+				<div class="row">
+					<div class="col-md-6">
+						<center><a href="jma10.com/Starbucks-Locator/overview.htm"><img src="images/starbucks-locator.JPG" style="width:80%" class="round shadow"></a></center>
+					</div>
+					<div class="col-md-6">
+						<div class="row">
+							<div class="col-md-12"><h3 class="pull-left">Starbucks Locator</h3></div>
 						</div>
-						<div class="col-md-5">
-							<div class="row">
-								<div class="col-md-12"><h3 class="pull-left">Starbucks Locator</h3></div>
-							</div>
-							<p>In this project, I built an interactive web mapping application using open source data. I manipulated, organized and stored open source data in PostgreSQL Database,
+						<p>In this project, I built an interactive web mapping application using open source data. I manipulated, organized and stored open source data in PostgreSQL Database,
 							then published geospatial data through GeoServer. This application has a query bar, which is used to search service, products, or spatial location. Some functionalities,
 							implemented in this application like changing base map layer, visible or invisible Starbucks display, query information about Starbucks. This application is coded with JavaScript,
 							Leaflet, jQuery, CSS, Bootstrap, Mapbox and Google Maps API.
-							</p>
-						</div>
+						</p>
 					</div>
 				</div>
+			</div>
 
 
-				<br/>
-				<div class="thumbnail round projectPanel">
-					<div class="row">
-						<div class="col-md-7">
-							<center><a href="images/GGS 650 Project.pdf"><img src="images/650-miniGIS.png" style="width:70%;" class="round shadow"></a></center>
+			<br/>
+			<div class="thumbnail round projectPanel">
+				<div class="row">
+					<div class="col-md-6">
+						<center><a href="images/GGS 650 Project.pdf"><img src="images/650-miniGIS.png" style="width:70%;" class="round shadow"></a></center>
+					</div>
+					<div class="col-md-6">
+						<div class="row">
+							<div class="col-md-12"><h3 class="pull-left">Mini GIS application</h3></div>
 						</div>
-						<div class="col-md-5">
-							<div class="row">
-								<div class="col-md-12"><h3 class="pull-left">Mini GIS application</h3></div>
-							</div>
-							<p>This project was written using Python to find intersecting points and segments of United States Highways and major rivers. Some functionalities like Zoom In, Zoom Out, Pan,
+						<p>This project was written using Python to find intersecting points and segments of United States Highways and major rivers. Some functionalities like Zoom In, Zoom Out, Pan,
 							Check Intersection, Check Intersecting Segments and Quit were implemented. I used Tkinter to visualize the user interface.
-							</p>
-						</div>
+						</p>
 					</div>
 				</div>
+			</div>
 
-				<br/>
-				<div class="thumbnail round projectPanel">
-					<div class="row">
-						<div class="col-md-7">
-							<center><img src="images/590-SF-NYC.png" style="width:70%;" class="round shadow"></center>
+			<br/>
+			<div class="thumbnail round projectPanel">
+				<div class="row">
+					<div class="col-md-6">
+						<center><img src="images/590-SF-NYC.png" style="width:70%;" class="round shadow"></center>
+					</div>
+					<div class="col-md-6">
+						<div class="row">
+							<div class="col-md-12"><h3 class="pull-left">Social Media Analysis</h3></div>
 						</div>
-						<div class="col-md-5">
-							<div class="row">
-								<div class="col-md-12"><h3 class="pull-left">Social Media Analysis</h3></div>
-							</div>
-							<p>This project examined the number of tweets changing through the festival period, the relationship between Twitter involved and socioeconomic variables.
+						<p>This project examined the number of tweets changing through the festival period, the relationship between Twitter involved and socioeconomic variables.
 							Twitter data was collected in two weeks around 2014 Spring Festival in New York City. I used some key words like "Spring Festival", "Chinese new year" to
 							filter data, then imported these tweets into CartoDB. A heat map varying through timeline was created. Additionally, I created a tagged cloud in Gephi to
 							identify keywords people concern about during Spring Festival.
-							</p>
-						</div>
+						</p>
 					</div>
 				</div>
 			</div>
+		</div>
 
 			<!-- project page finished  -->
 
-			<div id="Portfolio" class="container">
-				<h2>Portfolio</h2>
-				<br/>
-				<div class="thumbnail round projectPanel">
-					<div class="row">
-						<div class="col-md-8">
-							<center><a href="images/Ma_Lab3_revised2.pdf"><img src="images/Ma_Lab3_revised2.png" style="width:80%;" class="round shadow"></a></center>
-						</div>
-						<div class="col-md-4">
-							<div class="row">
-								<div class="col-md-12"><h3 class="pull-left">Cartography</h3></div>
-							</div>
-							<p>..........</p>
-						</div>
+		<div id="Portfolio" class="container">
+			<h2>Portfolio</h2>
+			<br/>
+			<div class="thumbnail round projectPanel">
+				<div class="row">
+					<div class="col-md-6">
+						<center><a href="images/Ma_Lab3_revised2.pdf"><img src="images/Ma_Lab3_revised2.png" style="width:80%;" class="round shadow"></a></center>
 					</div>
-				</div>
-
-				<br/>
-				<div class="thumbnail round projectPanel">
-					<div class="row">
-						<div class="col-md-8">
-							<center><a href="images/Ma_Lab6.pdf"><img src="images/Ma_Lab6.png" style="width:90%;" class="round shadow"></a></center>
-						</div>
-						<div class="col-md-4">
-							<div class="row">
-								<div class="col-md-12"><h3 class="pull-left">Cartography</h3></div>
-							</div>
-							<p>..........</p>
-						</div>
-					</div>
-				</div>
-
-				<br/>
-				<div class="thumbnail round projectPanel">
-					<div class="row">
-						<div class="col-md-8">
-							<center><a href="images/Ma_Lab9.pdf"><img src="images/Ma_Lab9.png" style="width:90%;" class="round shadow"></a></center>
-						</div>
-						<div class="col-md-4">
-							<div class="row">
-								<div class="col-md-12"><h3 class="pull-left">Cartography</h3></div>
-							</div>
-							<p>..........</p>
-						</div>
-					</div>
-				</div>
-
-				<br/>
-				<div class="thumbnail round projectPanel">
-					<div class="row">
-						<div class="col-md-8">
-							<center><a href="images/GGS551_PROJECT MAP1.pdf"><img src="images/GGS551_PROJECT MAP1.png" style="width:90%;" class="round shadow"></a></center>
-						</div>
-						<div class="col-md-4">
-							<div class="row">
-								<div class="col-md-12"><h3 class="pull-left">Cartography</h3></div>
-							</div>
-							<p>..........</p>
-						</div>
-					</div>
-				</div>
-
-				<br/>
-				<div class="thumbnail round projectPanel">
-					<div class="row">
-						<div class="col-md-8">
-							<center><a href="images/GGS551_PROJECT MAP2.pdf"><img src="images/GGS551_PROJECT MAP2.png" style="width:90%;" class="round shadow"></a></center>
-						</div>
-						<div class="col-md-4">
-							<div class="row">
-								<div class="col-md-12"><h3 class="pull-left">Cartography</h3></div>
-							</div>
-							<p>..........</p>
-						</div>
-					</div>
-				</div>
-
-				<br/>
-				<div class="thumbnail round projectPanel">
-					<div class="row">
-						<div class="col-md-8">
-							<center><a href="images/Ma-Jiao-GGS553-Lab2-Map2.pdf"><img src="images/GGS553-obesity prevalence.JPG" style="width:80%;" class="round shadow"></a></center>
-						</div>
-						<div class="col-md-4">
-							<div class="row">
-								<div class="col-md-12"><h3 class="pull-left">Cartography</h3></div>
-							</div>
-							<p>..........</p>
-						</div>
-					</div>
-				</div>
-
-				<br/>
-				<div class="thumbnail round projectPanel">
-					<div class="row">
-						<div class="col-md-8">
-							<center><a href="images/Ma-Jiao-GGS553-Lab3-Map1-revised.pdf"><img src="images/GGS553-education percent.JPG" style="width:60%;" class="round shadow"></a></center>
-						</div>
-						<div class="col-md-4">
-							<div class="row">
-								<div class="col-md-12"><h3 class="pull-left">Cartography</h3></div>
-							</div>
-							<p>..........</p>
-						</div>
-					</div>
-				</div>
-
-				<br/>
-				<div class="thumbnail round projectPanel">
-					<div class="row">
-						<div class="col-md-8">
-							<center><a href="images/Ma-Jiao-GGS553-Lab4-Map1.pdf"><img src="images/GGS553-Stinchfield.JPG" style="width:80%;" class="round shadow"></a></center>
-						</div>
-						<div class="col-md-4">
-							<div class="row">
-								<div class="col-md-12"><h3 class="pull-left">Cartography</h3></div>
-							</div>
-							<p>..........</p>
-						</div>
+					<div class="col-md-6">
+						<center><a href="images/Ma_Lab6.pdf"><img src="images/Ma_Lab6.png" style="width:90%;" class="round shadow"></a></center>
 					</div>
 				</div>
 			</div>
+
+			<br>
+			<div class="thumbnail round projectPanel">
+				<div class="row">
+					<div class="col-md-6">
+						<center><a href="images/Ma-Jiao-GGS553-Lab2-Map2.pdf"><img src="images/GGS553-obesity prevalence.JPG" style="width:80%;" class="round shadow"></a></center>
+					</div>
+					<div class="col-md-6">
+						<center><a href="images/Ma-Jiao-GGS553-Lab3-Map1-revised.pdf"><img src="images/GGS553-education percent.JPG" style="width:60%;" class="round shadow"></a></center>
+					</div>
+				</div>
+			</div>
+
+
+			<br/>
+			<div class="thumbnail round projectPanel">
+				<div class="row">
+					<div class="col-md-6">
+						<center><a href="images/Ma-Jiao-GGS553-Lab4-Map1.pdf"><img src="images/GGS553-Stinchfield.JPG" style="width:80%;" class="round shadow"></a></center>
+					</div>
+				</div>
+			</div>
+		</div>
 
 			<!-- Portfolio page finished  -->
 
-			<div id="C.V." class="container">
-				<h2>C.V.</h2>
-				<br/>
-				<iframe src="images/Jiao Ma Resume.pdf" width="75%" height="600"></iframe>
-			</div>
+		<div id="C.V." class="container">
+			<h2>C.V.</h2>
+			<br/>
+			<iframe src="images/Jiao Ma-Resume.pdf" width="75%" height="600"></iframe>
+		</div>
 
-			<!-- C.V. page finished  -->
+		<!-- C.V. page finished  -->
 
-			<div id="Contact" class="container">
-				<h2>Contact</h2>
-				<div class="row">
-					<div class="col-md-4">
-						<h4>Jiao Ma</h4>
-						<p>Email: jma10@masonlive.gmu.edu </p><br/>
-
-					</div>
+		<div id="Contact" class="container">
+			<h2>Contact</h2>
+			<div class="row">
+				<div class="col-md-4">
+					<h4>Jiao Ma</h4>
+					<p>Email: jma10@masonlive.gmu.edu </p><br/>
 				</div>
 			</div>
-			<!-- Contact page finished  -->
 		</div>
-	</div>
+		<!-- Contact page finished  -->
+	</main>
 
-	<div class="push"></div>
-	<div class="footer">
-    	<p class="copyright">Copyright &copy; 2016 Jiao Ma</p>
-    </div>
+	<footer>
+    <p><center>Copyright &copy; 2017 Jiao Ma</center></p>
+  </footer>
 </body>

@@ -4,18 +4,28 @@
 }
 html, body {
   position: relative;
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 5px;
+  padding-bottom: 20px;
 $('[data-spy="scroll"]').each(function () {
   var $spy = $(this).scrollspy('refresh')
 });
 }
 
+p {
+  padding: 5px 0;
+}
+
+footer {
+  position: static;
+  bottom: 0;
+  font-size: 10px;
+
+}
+
 .nav a {
-  color: #5a5a5a;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  font: 14px 'Open Sans' sans-serif;
   font-weight: bold;
+  color: #5a5a5a;
   padding: 14px 10px;
   text-transform: uppercase;
 }
@@ -25,10 +35,10 @@ $('[data-spy="scroll"]').each(function () {
 }
 
 .jumbotron {
-  background-image:url("F:\Dropbox\server\personal website\images\cover.jpg");
+  background:url("images/cover.JPG") no-repeat;
   height: 360px;
-  background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 .jumbotron .container {
@@ -37,36 +47,29 @@ $('[data-spy="scroll"]').each(function () {
 }
 
 .jumbotron h1 {
-  color: #fff;
-  font-size: 64px;  
+  color: #3A5FCD;
+  font-size: 64px;
   font-family: 'Pacifico', cursive;
   font-weight: bold;
+  padding-top: 160px;
+  padding-bottom: 5px;
 }
 
 .jumbotron p {
-  font-family: "open sans", sans-serif;
+  font-family: "Pacifico", sans-serif;
   font-size: 20px;
-  color: #000000;
+  color: #3A5FCD;
+  padding-left: 70px;
+
 }
 
-
-
-.wrapper {
-  min-height: 100%;
-  height: auto !important; 
-  height: 100%;
-  margin: 0 auto -100px; 
-}
-
-
-.content h2 {
+.container h2 {
   font-family: 'Pacifico', cursive;
   font-size: 32px;
   font-weight: bold;
 }
 
-
-.content h4 {
+.container h4 {
   font-family: "open sans", sans-serif;
   font-size: 18px;
 
@@ -75,15 +78,5 @@ $('[data-spy="scroll"]').each(function () {
 .content p {
   font-family: "open sans", sans-serif;
   font-size: 14px;
-  
-}
 
-.content a {
-  color: #00b0ff;
-}
-
-.footer, .push {
-  height: 100px; 
-  text-align: center;
-  font-size: 10px;
 }
